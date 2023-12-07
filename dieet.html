@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin="" defer></script>
+    <script src="./js/leaflet.js" defer></script>
+    <script src="./js/javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/logo.png" alt="Logo">
+        <nav>
+            <a class="navbutton" href="index.html">Home</a> 
+            <a class="navbutton" href="hobby.html">Hobby</a> 
+            <div class="dropdown">
+                <button class="navbutton">Onderdeel</button>
+                <div class="dropdown-content">
+                    <a href="oefeningen.html">Oefeningen</a>
+                    <a href="dieet.html">Dieet</a>
+                    <a href="routines.html">Routines</a>
+                    <a href="centra.html">Fitness centra</a>
+                    <a href="mentors.html">Mentors</a>
+                    <a href="shop.html">Supplementen</a>
+                </div>
+            </div> 
+            <a class="navbutton" href="shop.html">Shop</a> 
+            <a class="navbutton" href="contact.html">Contact</a>
+        </nav>
+        <form id="searchform" action="">
+            <label for="searchbar">Zoeken: </label>
+            <input type="text" name="searchbar" id="searchbar">
+        </form>
+    </header>
+    <div id="line"></div>
+	<main id="dieet">
+        <section class="shopcart-container">
+            <img class="shopcart" src="assets/shopcart.png" alt="Shopcart">
+            <img class="shopcart-transition" src="assets/shopcart-transition.png" alt="Shopcart transition">
+        </section>
+        <section class="counter">
+            <div>
+                <h3>Winkelmand</h3>
+                <div class="shopcart-mainline"></div>
+            </div>
+        </section>
+        <h2>Dieet</h2>
+        <article>
+            <p>Hier kunt u leren over het belang van het handhaven van een gezond dieet en hoe het uw lichaam en geest ten goede kan komen.</p>
+
+        <h3>Voordelen van een gezond dieet</h3>
+        <ul>
+            <li>Verminderd risico op chronische ziekten</li>
+            <li>Verbeterde geestelijke gezondheid</li>
+            <li>Verhoogde energieniveaus</li>
+            <li>Gewichtsbeheer</li>
+        </ul>
+
+        <h3>Tips voor het handhaven van een gezond dieet</h3>
+	    <ol>
+            <li>Eet een verscheidenheid aan groenten en fruit</li>
+            <li>Beperk bewerkte en suikerachtige voedingsmiddelen</li>
+            <li>Kies lean eiwitbronnen</li>
+            <li>Blijf gehydrateerd door water te drinken</li>
+	    </ol>
+
+	    <h3>Conclusie</h3>
+	    <p>Door een gezond dieet te volgen, kunt u uw algehele welzijn verbeteren en uw risico op chronische ziekten verminderen.
+            Vergeet niet om een zorgverlener te raadplegen voordat u grote wijzigingen in uw dieet aanbrengt.
+        </p>
+        <figure>
+            <img src="assets/dieetpyramide.jpg" id="dieetpyramide" alt="Dieetpyramide">
+            <figcaption>Het mediteraans dieet wordt aanzien als één van de gezondste diëten in de wereld.</figcaption>
+        </figure>
+        <figure>
+            <div id="shopsMap"></div>
+            <figcaption>Voor advies over dieet of extra supplementen kunt u terecht bij volgende sportwinkels.</figcaption>
+        </figure>
+        </article>
+        <section class="comments">
+            <article class="commentstitle">
+                <h3>Comments</h3>
+                <img src="assets/commentsicon.png" class="commentsicon" alt="">
+            </article>
+            <article class="commentcontainer">
+                <img class="avatar" src="assets/avatar.png" alt="Avatar icon">
+                <form class="comment-input">
+                    <input type="text" class="comment" name="comment" >
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="line"></div>
+        <section class="footer">
+            <h3>Benjamin Gamrekeli</h3>
+            <h3>Klas: G_1PRO_H_D1</h3>
+        </section>
+    </footer>
+</body>
+</html>

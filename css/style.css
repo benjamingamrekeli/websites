@@ -1,0 +1,630 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#shopsMap {
+    height: 70vh;
+    width: 50vw; 
+}
+#centraMap { 
+    height: 70vh;
+    width: 50vw; 
+}
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    display: block;
+    width: 220px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+#searchform label {
+    color: #FF6600;
+    padding: 16px;
+    font-size: 16px;
+    font-size: large;
+}
+
+h1 {
+    color: #FF6600;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+#home article {
+    display: grid;
+    grid-template-areas: "tekst foto";
+    margin: 5vw;
+    column-gap: 5vw;
+    row-gap: 5vw;
+}
+
+#hobby a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold
+}
+
+#dieet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#dieetpyramide {
+    display: block;
+    width: 500px;
+}
+
+#home p {
+    font-size: large;
+}
+
+#hobby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#hobby article {
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#oefeningen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#musclegroups {
+    display: grid;
+    grid-template-areas: "tekst anatomie";
+    column-gap: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#anatomie {
+    display: block;
+    width: 25vw;
+}
+
+#sfeerbeeld1 {
+    width: 100%;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+#sfeerbeeld2 {
+    width: 100%;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+.overzicht {
+    width: 500px;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+header {
+    display: grid;
+    grid-template-areas: "logo nav nav nav";
+    column-gap: 10vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #064899;
+    box-shadow: 0px 3px 20px 0px #000000;
+}
+
+#routines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#routines > article {
+    display: grid;
+    grid-template-areas: "routine";
+    grid-template-rows: 12vh;
+    row-gap: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#centraintro {
+    display: grid;
+    grid-template-areas: "tekst interieurfoto";
+}
+
+#basicfit {
+    display: block;
+    width: 40vw;
+}
+
+#flow-interieur {
+    display: block;
+    width: 40vw;
+    margin-top: 3vw;
+}
+
+#thebrick-interieur{
+    display: block;
+    width: 40vw;
+    margin-top: 3vw;
+}
+
+#mentors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mentorsintro {
+    display: grid;
+    grid-template-areas: "tekst foto-mentor";
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.neilhill {
+    display: block;
+    width: 30vw;
+}
+
+#shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopartikellen {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content:center;
+}
+
+.shop-artikel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 3vw;
+}
+
+.shop-artikel > *{
+    margin-top: 0;
+}
+
+.shop-artikel button{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.buy-knop {
+    background-color: #FF6600;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: large;
+}
+
+.buy-knop:hover{
+    background-color: #9f4000;
+    transition: background-color,500ms;
+    cursor: pointer;
+}
+
+#shopintro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.artikelfoto {
+    display: block;
+    max-height: 200px;
+}
+
+#founder {
+    display: block;
+    width: 20vw;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+#webdeveloper {
+    display: block;
+    width: 20vw;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+#portraits {
+    display: grid;
+    grid-template-areas: "founder webdeveloper";
+    column-gap: 3vw;
+}
+
+#contact article {
+    display: grid;
+    grid-template-areas: "form form";
+    column-gap: 3vw;
+}
+
+#formContact {
+    display: grid;
+    grid-template-areas: "form";
+    row-gap: 0vw;
+}
+
+#name {
+    display: grid;
+    grid-template-areas: "naam naam";
+    column-gap: 2vw;
+}
+
+#submit {
+    display: block;
+    width: 10vw;
+    justify-self: center;
+}
+
+.counter{
+    display: none;
+    background-color: #064899;
+    width: 20vw;
+    max-height: 60vh;
+    overflow-y: auto;
+    position: fixed;
+    border-radius: 20px;
+    top: 20;
+    right: 0;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+.checkout {
+    display: none;
+    background-color: #FF6600;
+    width: 20vw;
+    max-height: 20vh;
+    position: fixed;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 13vh;
+    right: 0;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 0px #000000;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 3vw;
+    }
+    #home article {
+        grid-template-areas: "compact";
+    }
+    #hobby article div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #musclegroups {
+        grid-template-areas: "compact";
+    }
+    #anatomie {
+        width: 50vw;
+    }
+    #dieetpyramide {
+        width: 350px;
+    }
+    #routines article {
+        display: flex;
+        flex-direction: column;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 3px;
+        font-size: small;
+    }
+    #centraintro {
+        grid-template-areas: "compact";
+    }
+    #basicfit {
+        width: 75vw;
+    }
+    iframe {
+        width: 80vw;
+    }
+    #mentorsintro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .neilhill {
+        width: 60vw;
+    }
+    #contact article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    #founder {
+        width: 40vw;
+    }
+    #webdeveloper {
+        width: 40vw;
+    }
+    
+    .counter{
+        display: none;
+        background-color: #064899;
+        width: 30vw;
+        max-height: 60vh;
+        overflow-y: auto;
+        position: fixed;
+        border-radius: 20px;
+        top: 20;
+        right: 0;
+        box-shadow: 0px 0px 20px 0px #000000;
+    }
+    
+    .checkout {
+        display: none;
+        background-color: #FF6600;
+        width: 30vw;
+        max-height: 10vh;
+        position: fixed;
+        border-radius: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        bottom: 0;
+        margin-bottom: 1vh;
+        right: 0;
+        padding: 10px;
+        box-shadow: 0px 0px 20px 0px #000000;
+    }    
+
+}
+
+.shopcart-container:hover .shopcart{
+    width: 110px;
+    transition: width, 500ms;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity,500ms;
+}
+
+.shopcart-container:hover .shopcart-transition{
+    width: 110px;
+    transition: width, 500ms;
+    cursor: pointer;
+    opacity: 100;
+    transition: opacity,500ms;
+}
+
+.shopcart {
+    display: block;
+    width: 85px;
+    position: fixed;
+    top: 25px;
+    right: 50px;
+    transition: width,500ms;
+}
+
+.shopcart-transition {
+    display: block;
+    width: 85px;
+    position: fixed;
+    top: 25px;
+    right: 50px;
+    transition: width, 500ms;
+    opacity: 0;
+}
+
+.counter div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter p {
+    margin-left: 15%;
+    color: white;
+}
+
+.counter h3 {
+    color: white;
+}
+
+.commentstitle{
+    display: grid;
+    grid-template-areas: "titel titel";
+    column-gap: 1vw;
+    justify-content: left;
+    align-items: center;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    margin-top: 5vw;
+}
+
+.commentsicon {
+    display: block;
+    width: 30px;
+}
+
+.commentcontainer {
+    display: grid;
+    grid-template-areas: "comment comment comment";
+    column-gap: 2vw;
+}
+
+.comment {
+    display: block;
+    width: 30vw;
+    height: 7vw;
+}
+
+.like {
+    display: block;
+    width: 30px;
+    transition: transform 0.2s;
+}
+
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+  
+.like:target {
+    animation: bounce 0.5s forwards;
+    animation-play-state: running;
+}
+  
+.like.animated {
+    animation-play-state: paused;
+}
+  
+.like:active {
+    transform: scale(1.2);
+}
+  
+.avatar {
+    display: block;
+    width: 50px;
+}
+
+#line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #FF6600;
+}
+
+.shopcart-line {
+    display: block;
+    width: 65%;
+    height: 1px;
+    margin-left: 15%;
+    background-color: #0864d4;
+}
+
+.shopcart-mainline {
+    display: block;
+    width: 65%;
+    height: 2px;
+    background-color: #FF6600;
+}
+
+#hobby article div {
+    display: flex;
+    column-gap: 3vw;
+}
+
+.navbutton {
+    color: #FF6600;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    font-size: large;
+}
+
+.navbutton:hover {
+    background-color: #FF6600;
+    transition: background-color, 500ms;
+    color: white;
+    box-shadow: 5px 5px;
+}
+
+.dropdown button {
+    background-color: #064899;
+}
+
+.dropdown button:hover {
+    background-color: #FF6600;
+    transition: background-color, 500ms;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF6600;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #fd8739;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #064899;
+    margin-top: 5vh;
+    box-shadow: 0px -3px 10px 0px #000000;
+}
+
+footer h3 {
+    color: white;
+    padding: 30px;
+}

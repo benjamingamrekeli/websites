@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/logo.png" alt="Logo">
+        <nav>
+            <a class="navbutton" href="index.html">Home</a> 
+            <a class="navbutton" href="hobby.html">Hobby</a> 
+            <div class="dropdown">
+                <button class="navbutton">Onderdeel</button>
+                <div class="dropdown-content">
+                    <a href="oefeningen.html">Oefeningen</a>
+                    <a href="dieet.html">Dieet</a>
+                    <a href="routines.html">Routines</a>
+                    <a href="centra.html">Fitness centra</a>
+                    <a href="mentors.html">Mentors</a>
+                    <a href="shop.html">Supplementen</a>
+                </div>
+            </div>
+            <a class="navbutton" href="shop.html">Shop</a>  
+            <a class="navbutton" href="contact.html">Contact</a>
+        </nav>
+        <form id="searchform" action="">
+            <label for="searchbar">Zoeken: </label>
+            <input type="text" name="searchbar" id="searchbar">
+        </form>
+    </header>
+    <div id="line"></div>
+    <main id="routines">
+        <section class="shopcart-container">
+            <img class="shopcart" src="assets/shopcart.png" alt="Shopcart">
+            <img class="shopcart-transition" src="assets/shopcart-transition.png" alt="Shopcart transition">
+        </section>
+        <section class="counter">
+            <div>
+                <h3>Winkelmand</h3>
+                <div class="shopcart-mainline"></div>
+            </div>
+        </section>
+        <h2>Routines</h2>
+        <article>
+            <p>Een fitnessroutine plannen is beter dan geen plan hebben, omdat het individuen kan helpen hun fitnessdoelen effectiever en 
+                efficiënter te bereiken. Een goed ontworpen fitnessplan kan structuur en richting geven aan de trainingsroutine van een individu, 
+                en ervoor zorgen dat ze deelnemen aan een verscheidenheid aan activiteiten die gericht zijn op verschillende spiergroepen en 
+                aspecten van fitness. Door een fitnessroutine te plannen, kunnen individuen er ook voor zorgen dat ze op een veilige en duurzame 
+                manier vooruitgang boeken in de richting van hun doelen, in plaats van willekeurige en mogelijk schadelijke oefeningen te doen. <br><br>
+                Hieronder staat een overzicht van een effectieve routine voor beginners. Gevorderden kunnen het plan aanpassen naar hun wensen.
+            </p>
+            <table>
+                <caption>Weekroutine voor beginners</caption>
+                <thead>
+                    <tr>
+                        <th>Maandag</th>
+                        <th>Dinsdag</th>
+                        <th>Woensdag</th>
+                        <th>Donderdag</th>
+                        <th>Vrijdag</th>
+                        <th>Zaterdag</th>
+                        <th>Zondag</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>4 sets van bench press</td>
+                        <td>Rust</td>
+                        <td>3 sets van pullups</td>
+                        <td>Rust</td>
+                        <td>3 sets van leg press</td>
+                        <td colspan="2">Rust</td>
+                    </tr>
+                    <tr>
+                        <td>3 sets van tricep rope pulldown</td>
+                        <td>Rust</td>
+                        <td>4 sets van rows</td>
+                        <td>Rust</td>
+                        <td>4 sets van squats</td>
+                        <td colspan="2">Rust</td>
+                    </tr>
+                    <tr>
+                        <td>3 sets van dips</td>
+                        <td>Rust</td>
+                        <td>4 sets van lat pulldown</td>
+                        <td>Rust</td>
+                        <td>10 min loopband</td>
+                        <td colspan="2">Rust</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <section class="comments">
+            <article class="commentstitle">
+                <h3>Comments</h3>
+                <img src="assets/commentsicon.png" class="commentsicon" alt="">
+            </article>
+            <article class="commentcontainer">
+                <img class="avatar" src="assets/avatar.png" alt="Avatar icon">
+                <form class="comment-input">
+                    <input type="text" class="comment" name="comment" >
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="line"></div>
+        <section class="footer">
+            <h3>Benjamin Gamrekeli</h3>
+            <h3>Klas: G_1PRO_H_D1</h3>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/logo.png" alt="Logo">
+        <nav>
+            <a class="navbutton" href="index.html">Home</a> 
+            <a class="navbutton" href="hobby.html">Hobby</a> 
+            <div class="dropdown">
+                <button class="navbutton">Onderdeel</button>
+                <div class="dropdown-content">
+                    <a href="oefeningen.html">Oefeningen</a>
+                    <a href="dieet.html">Dieet</a>
+                    <a href="routines.html">Routines</a>
+                    <a href="centra.html">Fitness centra</a>
+                    <a href="mentors.html">Mentors</a>
+                    <a href="shop.html">Supplementen</a>
+                </div>
+            </div>
+            <a class="navbutton" href="shop.html">Shop</a>  
+            <a class="navbutton" href="contact.html">Contact</a>
+        </nav>
+        <form id="searchform" action="">
+            <label for="searchbar">Zoeken: </label>
+            <input type="text" name="searchbar" id="searchbar">
+        </form>
+    </header>
+    <div id="line"></div>
+    <main id="shop">
+        <section class="shopcart-container">
+            <img class="shopcart" src="assets/shopcart.png" alt="Shopcart">
+            <img class="shopcart-transition" src="assets/shopcart-transition.png" alt="Shopcart transition">
+        </section>
+        <section class="counter">
+            <div>
+                <h3>Winkelmand</h3>
+                <div class="shopcart-mainline"></div>
+            </div>
+        </section>
+        <section class="checkout">
+            <h3>Totaal: €</h3>
+            <h3 id="total-price">0</h3>
+        </section>
+        <section id="shopintro">
+            <h2>Shop</h2>
+            <p>
+                Wil je je fitness naar het volgende niveau tillen?Onze fitness -supplementen kunnen u helpen uw doelen te bereiken en echte resultaten te zien.
+                Onze zorgvuldig samengestelde selectie van supplementen omvat alles, van eiwitpoeders en pre-workout-formules tot vetverbranders
+                en vitamines.Of u nu spier wilt opbouwen, uw uithoudingsvermogen wilt vergroten of de algehele gezondheid en welzijn wilt ondersteunen, wij hebben
+                de supplementen die u nodig hebt.Onze producten zijn gemaakt met ingrediënten van hoge kwaliteit en worden ondersteund door de wetenschap, ervoor zorgen dat u bent
+                het behalen van de best mogelijke resultaten.Bovendien zijn onze supplementen gemakkelijk te gebruiken en handig, zodat u ze gemakkelijk kunt opnemen
+                in uw dagelijkse routine.Wacht niet - begin vandaag nog met het bereiken van uw fitnessdoelen met onze premium supplementen!
+            </p>
+        </section>
+        <section class="shopartikellen">
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/caseinprotein.jpg" class="shopartikel" alt="Artikel">
+                <h3>Casein Protein</h3>
+                <h3>€60</h3>
+                <button class="buy-knop">Koop</button>
+            </article>
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/concetrated.jpeg" class="shopartikel" alt="Artikel">
+                <h3>Pre-workout</h3>
+                <h3>€55</h3>
+                <button class="buy-knop">Koop</button>
+            </article>  
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/bluecreatine.avif" class="shopartikel" alt="Artikel">
+                <h3>Precision™ Creatine</h3>
+                <h3>€30</h3>
+                <button class="buy-knop">Koop</button>
+            </article>  
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/orangecreatine.avif" class="shopartikel" alt="Artikel">
+                <h3>Optimum™ Creatine</h3>
+                <h3>€25</h3>
+                <button class="buy-knop">Koop</button>
+            </article>  
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/streetprotein.png" class="shopartikel" alt="Artikel">
+                <h3>Street™ Protein</h3>
+                <h3>€80</h3>
+                <button class="buy-knop">Koop</button>
+            </article>  
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/blast.webp" class="shopartikel" alt="Artikel">
+                <h3>Blast™ Fruit Punch</h3>
+                <h3>€45</h3>
+                <button class="buy-knop">Koop</button>
+            </article>  
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/creatinetablets.jpg" class="shopartikel" alt="Artikel">
+                <h3>Creatine Tabletten</h3>
+                <h3>€15</h3>
+                <button class="buy-knop">Koop</button>
+            </article>    
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/wheymatrix.webp" class="shopartikel" alt="Artikel">
+                <h3>Get™ Whey Matrix</h3>
+                <h3>€40</h3>
+                <button class="buy-knop">Koop</button>
+            </article>  
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/redcreatine.webp" class="shopartikel" alt="Artikel">
+                <h3>XXL™ Creatine</h3>
+                <h3>€90</h3>
+                <button class="buy-knop">Koop</button>
+            </article>  
+            <article class="shop-artikel">
+                <img class="artikelfoto" src="assets/firepills.jpg" class="shopartikel" alt="Artikel">
+                <h3>Leanfire™ Pillen</h3>
+                <h3>€20</h3>
+                <button class="buy-knop">Koop</button>
+            </article>  
+        </section>
+        <section class="comments">
+            <article class="commentstitle">
+                <h3>Comments</h3>
+                <img src="assets/commentsicon.png" class="commentsicon" alt="">
+            </article>
+            <article class="commentcontainer">
+                <img class="avatar" src="assets/avatar.png" alt="Avatar icon">
+                <form class="comment-input">
+                    <input type="text" class="comment" name="comment" >
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="line"></div>
+        <section class="footer">
+            <h3>Benjamin Gamrekeli</h3>
+            <h3>Klas: G_1PRO_H_D1</h3>
+        </section>
+    </footer>
+</body>
+</html>

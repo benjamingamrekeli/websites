@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin="" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/javascript.js" defer></script>
+    <script src="./js/leaflet.js" defer></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/logo.png" alt="Logo">
+        <nav>
+            <a class="navbutton" href="index.html">Home</a> 
+            <a class="navbutton" href="hobby.html">Hobby</a> 
+            <div class="dropdown">
+                <button class="navbutton">Onderdeel</button>
+                <div class="dropdown-content">
+                    <a href="oefeningen.html">Oefeningen</a>
+                    <a href="dieet.html">Dieet</a>
+                    <a href="routines.html">Routines</a>
+                    <a href="centra.html">Fitness centra</a>
+                    <a href="mentors.html">Mentors</a>
+                    <a href="shop.html">Supplementen</a>
+                </div>
+            </div> 
+            <a class="navbutton" href="shop.html">Shop</a> 
+            <a class="navbutton" href="contact.html">Contact</a>
+        </nav>
+        <form id="searchform" action="">
+            <label for="searchbar">Zoeken: </label>
+            <input type="text" name="searchbar" id="searchbar">
+        </form>
+    </header>
+    <div id="line"></div>
+	<main id="dieet">
+        <section class="shopcart-container">
+            <img class="shopcart" src="assets/shopcart.png" alt="Shopcart">
+            <img class="shopcart-transition" src="assets/shopcart-transition.png" alt="Shopcart transition">
+        </section>
+        <section class="counter">
+            <div>
+                <h3>Winkelmand</h3>
+                <div class="shopcart-mainline"></div>
+            </div>
+        </section>
+       <h2>Fitness centra</h2>
+        <section id="centraintro">
+            <div>
+                <p>
+                    De verschillende centra hebben voor- en nadelen afhankelijk van je 
+                    doelen qua faciliteiten zoals gewichtsruimtes, cardio -gebieden, groepsfitnesslessen en persoonlijke trainingsdiensten.
+                    Bovendien zijn de fitness centra van verschillende soorten bedrijven met verschillende kosten qua lidmaatschap en andere diensten.
+                    <br><br>
+                    Hier vergelijken we de verschillen tussen de centra zodat je de beste locatie kan kiezen.
+                </p>
+                <h3>Basic-Fit centra</h3>
+                <h4>1. Fitnessapparatuur</h4>
+                    <p>De sportscholen zijn uitgerust met essentiële fitnessapparatuur, zoals loopbanden, crosstrainers, en krachttrainingsapparaten.</p>
+                    
+                    <h4>2. Gewichtsruimte</h4>
+                    <p>Ze hebben een aparte ruimte met vrije gewichten, halters en halterbanken.</p>
+                    
+                    <h4>3. Groepslessen</h4>
+                    <p>Ze bieden een selectie van groepslessen aan, waaronder aerobics, zumba en yoga. </p>
+                    
+                    <h4>5. Kleedkamers en douches</h4>
+                    <p>Ze bieden schone kleedkamers met kluisjes waar u uw persoonlijke spullen veilig kunt opbergen tijdens uw training. Daarnaast zijn er douches beschikbaar.</p>
+                
+                <h3>Flow Antwerp & The Brick</h3>
+                <h4>1. Moderne fitnessapparatuur</h4>
+                    <p>Sportscholen uitgerust met de nieuwste fitnessapparatuur van topkwaliteit.</p>
+                    
+                    <h4>2. Diverse groepslessen</h4>
+                    <p>Ze bieden een gevarieerd aanbod van groepslessen om aan de behoeften van verschillende sportliefhebbers te voldoen.</p>
+                    
+                    <h4>3. Persoonlijke training</h4>
+                    <p>Voor diegenen die een meer gepersonaliseerde benadering van fitness willen, bieden ze persoonlijke trainingssessies aan.</p>
+                    
+                    <h4>4. Sauna's en spa</h4>
+                    <p>Ontspan en verjong in de luxe sauna's en spa.</p>
+                    
+                    <h4>5. Gratis fruit en handoeken</h4>
+                    <p>Bij elke sessie kunt u uw batterij opladen met een vers fruit. Ook hoeft u uw eigen handoeken niet mee te nemen. </p>   
+
+                    <h4>6. Veilige lockerfaciliteiten</h4>
+                    <p>We bieden ruime lockers waar u uw persoonlijke bezittingen veilig kunt opbergen.</p>
+                    
+                    <h4>7. Luxe voorzieningen</h4>
+                    <p>De sportscholen zijn ontworpen met oog voor luxe en comfort.</p>
+                    
+                    <h4>8. Professioneel en vriendelijk personeel</h4>
+                    <p>De team van professionele en vriendelijke medewerkers staan altijd klaar om u te helpen.</p>
+            </div>
+            <figure>
+                <img src="assets/basicfit.jpg" id="basicfit" alt="Basic fit van binnen.">
+                <figcaption>Basic-fit is een goede budget variant met meeste faciliteiten aanwezig</figcaption>
+                <img src="assets/flow-interieur.png" id="flow-interieur" alt="Flow van binnen.">
+                <figcaption>Flow is een exclusievere variant met extra faciliteiten zoals sauna's, hamams.</figcaption>
+                <img src="assets/thebrick-interieur.jpg" id="thebrick-interieur" alt="The Brick van binnen.">
+                <figcaption>The Brick is een exclusievere variant net als flow met gelijkaardige faciliteiten.</figcaption>
+            </figure>
+        </section>
+        <section id="centralocaties">
+            <figure>
+                <div id="centraMap"></div>
+                <figcaption>Locaties van de fitness centra in Antwerpen. Blauwe markers zijn de standaard basic-fit centra. <br> Paarse markers zijn de exclusieve centra met extra faciliteiten.</figcaption>
+            </figure>
+        </section>
+        <section class="comments">
+            <article class="commentstitle">
+                <h3>Comments</h3>
+                <img src="assets/commentsicon.png" class="commentsicon" alt="">
+            </article>
+            <article class="commentcontainer">
+                <img class="avatar" src="assets/avatar.png" alt="Avatar icon">
+                <form class="comment-input">
+                    <input type="text" class="comment" name="comment" >
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="line"></div>
+        <section class="footer">
+            <h3>Benjamin Gamrekeli</h3>
+            <h3>Klas: G_1PRO_H_D1</h3>
+        </section>
+    </footer>
+</body>
+</html>

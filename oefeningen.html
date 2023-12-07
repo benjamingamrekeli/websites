@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/logo.png" alt="Logo">
+        <nav>
+            <a class="navbutton" href="index.html">Home</a> 
+            <a class="navbutton" href="hobby.html">Hobby</a> 
+            <div class="dropdown">
+                <button class="navbutton">Onderdeel</button>
+                <div class="dropdown-content">
+                    <a href="oefeningen.html">Oefeningen</a>
+                    <a href="dieet.html">Dieet</a>
+                    <a href="routines.html">Routines</a>
+                    <a href="centra.html">Fitness centra</a>
+                    <a href="mentors.html">Mentors</a>
+                    <a href="shop.html">Supplementen</a>
+                </div>
+            </div> 
+            <a class="navbutton" href="shop.html">Shop</a> 
+            <a class="navbutton" href="contact.html">Contact</a>
+        </nav>
+        <form id="searchform" action="">
+            <label for="searchbar">Zoeken: </label>
+            <input type="text" name="searchbar" id="searchbar">
+        </form>
+    </header>
+    <div id="line"></div>
+    <main id="oefeningen">
+        <section class="shopcart-container">
+            <img class="shopcart" src="assets/shopcart.png" alt="Shopcart">
+            <img class="shopcart-transition" src="assets/shopcart-transition.png" alt="Shopcart transition">
+        </section>
+        <section class="counter">
+            <div>
+                <h3>Winkelmand</h3>
+                <div class="shopcart-mainline"></div>
+            </div>
+        </section>
+        <h2>Oefeningen</h2>
+        <section id="musclegroups">
+            <div>
+                <p>Het lichaam is opgebouwd uit 6 voornaamste spiergroepen:</p>
+                <ul>
+                    <li>Chest (borst)</li>
+                    <li>Abdominals (buikspieren)</li>
+                    <li>Legs (benen)</li>
+                    <li>Shoulders (schouders)</li>
+                    <li>Arms (armen)</li>
+                    <li>Back (rug)</li>
+                </ul>
+                <p>Cardio of krachttraining, je gebruikt sowieso een spiergroep. Het is dan ook belangrijk om de juiste oefeningen te doen om de juiste spieren te trainen.</p>
+                <h3>Basis Fitnessoefeningen voor Krachttraining</h3>
+                <h4>Squats</h4>
+                <p>Squats zijn een samengestelde oefening die meerdere spiergroepen aanspreekt, waaronder de quadriceps, hamstrings, bilspieren en core.</p>
+                
+                <h4>Bench Press</h4>
+                <p>De bench press is een populaire oefening voor de bovenlichaamspieren, met name de borstspieren (pectoralis major en minor), evenals de triceps en schouders.</p>
+                
+                <h4>Deadlift</h4>
+                <p>Deadlifts zijn een krachtige oefening die de spieren in het lichaam stimuleert, met name de beenspieren, onderrugspieren en bilspieren.</p>
+                
+                <h4>Shoulder Press</h4>
+                <p>De shoulder press, ook wel de military press genoemd, richt zich op de schouderspieren (deltoids), evenals de triceps en bovenrugspieren.</p>
+                
+                <h4>Pull-ups</h4>
+                <p>Pull-ups zijn een uitstekende oefening voor het versterken van de rugspieren, met name de latissimus dorsi, evenals de biceps en onderarmen.</p>
+                
+                <h4>Lunges</h4>
+                <p>Lunges zijn een unilaterale oefening die de beenspieren, zoals de quadriceps, hamstrings en bilspieren, uitdaagt en ook de core stabiliteit verbetert.</p>
+                
+                <h4>Plank</h4>
+                <p>De plank is een statische oefening die de core spieren versterkt, inclusief de buikspieren, rugspieren en stabilisatoren van de romp.</p>
+            </div>
+            <figure>
+                <img src="assets/anatomie.webp" id="anatomie" alt="Anatomie spiergroepen">
+                <figcaption>Anatomie van de spiergroepen van het menselijk lichaam</figcaption>
+            </figure>
+        </section>
+        <section class="comments">
+            <article class="commentstitle">
+                <h3>Comments</h3>
+                <img src="assets/commentsicon.png" class="commentsicon" alt="">
+            </article>
+            <article class="commentcontainer">
+                <img class="avatar" src="assets/avatar.png" alt="Avatar icon">
+                <form class="comment-input">
+                    <input type="text" class="comment" name="comment" >
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="line"></div>
+        <section class="footer">
+            <h3>Benjamin Gamrekeli</h3>
+            <h3>Klas: G_1PRO_H_D1</h3>
+        </section>
+    </footer>
+</body>
+</html>

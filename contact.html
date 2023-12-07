@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/shop.js" defer></script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/logo.png" alt="Logo">
+        <nav>
+            <a class="navbutton" href="index.html">Home</a> 
+            <a class="navbutton" href="hobby.html">Hobby</a> 
+            <div class="dropdown">
+                <button class="navbutton">Onderdeel</button>
+                <div class="dropdown-content">
+                  <a href="oefeningen.html">Oefeningen</a>
+                  <a href="dieet.html">Dieet</a>
+                  <a href="routines.html">Routines</a>
+                  <a href="centra.html">Fitness centra</a>
+                  <a href="mentors.html">Mentors</a>
+                  <a href="shop.html">Supplementen</a>
+                </div>
+            </div>
+            <a class="navbutton" href="shop.html">Shop</a>  
+            <a class="navbutton" href="contact.html">Contact</a>
+        </nav>
+        <form id="searchform" action="">
+            <label for="searchbar">Zoeken: </label>
+            <input type="text" name="searchbar" id="searchbar">
+        </form>
+    </header>
+    <div id="line"></div>
+    <main id="contact">
+        <section class="shopcart-container">
+            <img class="shopcart" src="assets/shopcart.png" alt="Shopcart">
+            <img class="shopcart-transition" src="assets/shopcart-transition.png" alt="Shopcart transition">
+        </section>
+        <section class="counter">
+            <div>
+                <h3>Winkelmand</h3>
+                <div class="shopcart-mainline"></div>
+            </div>
+        </section>
+        <h2>Contact</h2>
+        <article>
+            <div id="portraits">
+                <figure>
+                    <img id="founder" src="assets/founder.jpg" alt="">
+                    <figcaption>Founder</figcaption>
+                </figure>
+                <figure>
+                    <img id="webdeveloper" src="assets/webdeveloper.jpg" alt="">
+                    <figcaption>Webdeveloper</figcaption>
+                </figure>
+            </div>
+            <form id="formContact">
+                <div id="name">
+                    <div>
+                        <label for="fname">Voornaam:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div>
+                        <label for="lname">Achternaam:</label>
+                        <input type="text" id="lname" name="lname"><br>
+                    </div>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" size="67">
+                </div>
+                <div>
+                    <label for="nummer">Telefoonnummer:</label>
+                    <input type="text" id="nummer" name="nummer">
+                </div>
+                <div>
+                    <label for="message">Bericht:</label>
+                    <input type="text" id="message" name="message" size="67">
+                </div>
+                <input id="submit" type="submit" value="Stuur">
+            </form>
+        </article>
+    </main>
+    <footer>
+        <div id="line"></div>
+        <section class="footer">
+            <h3>Benjamin Gamrekeli</h3>
+            <h3>Klas: G_1PRO_H_D1</h3>
+        </section>
+    </footer>
+</body>
+</html>
